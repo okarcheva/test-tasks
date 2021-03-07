@@ -39,7 +39,7 @@ function maxTrailing2(levels) {
     }
   }
 
-  return max;
+  return max === 0 ? -1 : max;
 }
 
 console.log(maxTrailing2([5, 3, 6, 7, 4]));
